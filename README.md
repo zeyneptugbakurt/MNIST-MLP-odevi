@@ -62,7 +62,11 @@ Mimari: `784 → 256 → ReLU → 128 → ReLU → 10` (Flatten + 3 Linear katma
 
 ## 5. Kendi El Yazım
 
-Öğrenci numaram **24120205005**'i beyaz kağıda siyah kalemle, rakamlar birbirine değmeyecek şekilde yazıp tek bir fotoğraf olarak çektim (`numara.png`). İlk denememde ince uçlu bir kalem kullanmıştım; çizgiler MNIST'e göre çok ince olduğu için kalın uçlu kalemle yeniden yazdım ve bu son görseli kullandım. Rakamlar iki şekilde test edildi:
+Öğrenci numaram **24120205005**'i beyaz kağıda siyah kalemle, rakamlar birbirine değmeyecek şekilde yazıp tek bir fotoğraf olarak çektim (`numara.png`). İlk denememde ince uçlu bir kalem kullanmıştım; çizgiler MNIST'e göre çok ince olduğu için kalın uçlu kalemle yeniden yazdım ve bu son görseli kullandım. 
+
+![El yazım](numara.png)
+
+Rakamlar iki şekilde test edildi:
 
 1. **Tek tek:** `numara.png` içinden ayrılan her rakam `my_digits/` klasörüne `<sıra>_<rakam>.png` olarak kaydedildi ve ayrı ayrı tahmin edildi.
 2. **Tek görsel:** Tüm numara tek görsel olarak verildi, rakamlar kod tarafından otomatik bölünüp tahmin edildi.
