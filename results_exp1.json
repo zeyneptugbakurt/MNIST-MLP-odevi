@@ -1,0 +1,22 @@
+{
+  "hyperparameters": {
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "activation": "ReLU",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "epochs": 15,
+    "val_size": 5000,
+    "seed": 42
+  },
+  "final_train_loss": 0.012882452255758372,
+  "final_val_loss": 0.08397664010394365,
+  "final_train_acc": 0.9958181818181818,
+  "final_val_acc": 0.981,
+  "test_acc": 0.98,
+  "test_loss": 0.08484937836126176,
+  "training_time_sec": 40.75937628746033
+}
